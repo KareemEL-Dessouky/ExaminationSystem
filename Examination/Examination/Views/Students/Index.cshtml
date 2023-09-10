@@ -1,0 +1,9 @@
+﻿@using Examination.Models.Database
+
+@model IEnumerable<Student>
+
+@foreach (Student student in Model)
+{
+    <p>@student.Id</p>
+    <p>@student.Name</p>
+}
